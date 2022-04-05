@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoadData</string>
+    <string-array name="season_Status">
+        <item>Finish</item>
+        <item>On going</item>
+        <item>To Watch</item>
+     </string-array>
+</resources>

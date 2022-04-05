@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:hapticFeedbackEnabled="true"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:background="@color/red"
+        android:hapticFeedbackEnabled="true"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="208dp"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:ellipsize="end"
+            android:hapticFeedbackEnabled="true"
+            android:hint="Jujutsu Kaisen
+"
+            android:maxLines="1"
+            android:text=""
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/IndexNumber"
+            android:layout_width="71dp"
+            android:layout_height="85dp"
+            android:layout_centerInParent="false"
+            android:gravity="center_vertical"
+            android:text="Title"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/signal"
+            android:layout_width="39dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:hapticFeedbackEnabled="true" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
